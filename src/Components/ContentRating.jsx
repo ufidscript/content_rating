@@ -29,13 +29,13 @@ class ContentRating extends Component {
   render() {
     return (
      <>
-     <div class="contnet-rating">
+     <div class="content-rating">
         <p>Technology</p>
         <div class="rating-buttons">
-            <button class="like-button" onClick={this.state.handleLike}>
+            <button className="like-button" onClick={this.state.handleLike}>
                 Like ({this.state.likes})
                 </button>        
-            <button class="dislike-button" onClick={this.state.handleDislike}>
+            <button className="dislike-button" onClick={this.state.handleDislike}>
             Dislike ({this.state.dislikes})
             </button>
             </div>
